@@ -20,7 +20,7 @@ IsPalindrome(const string s)
 int
 main()
 {	
-	cout << "Enter the string to be checked for Palindrome\n";
+	cout << "Usage: Enter the string to be checked for Palindrome. An Empty string will cause to exit. \n";
 	string s;
 	while (std::getline(cin, s)) {
 		if (s.empty())
